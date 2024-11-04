@@ -24,12 +24,12 @@ const Home = () => {
           </TotalBalanceBox>
         </header>
 
-          <RightSidebar 
+      </div>
+      <RightSidebar 
             user={loggedIn}
             transactions={[]}
-            banks={[{}, {}]}
+            banks={[{ currentBalance: 123.50 }, { currentBalance: 135.50 }]}
           />
-      </div>
     </section>
   )
 }

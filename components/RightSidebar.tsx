@@ -25,7 +25,7 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
               </div>
         </section>
 
-        <section className="banaks">
+        <section className="banks">
           <div className="flex w-full justify-between">
               <h2 className="header-2">My Banks</h2>
               <Link href="/" className="flex gap-2">
